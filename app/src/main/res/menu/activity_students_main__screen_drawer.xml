@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Department"
+            android:title="Departments">
+
+            <menu>
+                <item
+                    android:id="@+id/Vani"
+                    android:title="Vani Mandir" />
+                <item
+                    android:id="@+id/Surya"
+                    android:title="Surya Mandir"/>
+                <item
+                    android:id="@+id/Aim"
+                    android:title="Aim And Act"/>
+                <item
+                    android:id="@+id/Jeev"
+                    android:title="Jeev Mandir"/>
+                <item
+                    android:id="@+id/Vigyan"
+                    android:title="Vigyan Mandir"/>
+                <item
+                    android:id="@+id/Urja"
+                    android:title="Urja Mandir"/>
+                <item
+                    android:id="@+id/Bhu"
+                    android:title="Bhu Mandir"/>
+                <item
+                    android:id="@+id/Wisdom"
+                    android:title="Wisdom"/>
+
+            </menu>
+        </item>
+        <item
+            android:id="@+id/Change"
+            android:title="Change Password"/>
+        <item
+            android:id="@+id/AboutUs"
+            android:title="About US" />
+        <item
+            android:id="@+id/ContactUs"
+            android:title="Contact Us" />
+
+    </group>
+
+
+</menu>

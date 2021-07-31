@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shweta.linkb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="LinkB"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_Notice" />
+        <activity android:name=".Change_Password" />
+        <activity android:name=".Forgot2Activity" />
+        <activity android:name=".Forgot_Password" />
+        <activity android:name=".Sign_Up" />
+        <activity
+            android:name=".Main_Screen"
+            android:label="@string/title_activity_main__screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main_Screen_Students"
+            android:label="@string/title_activity_main__screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Preferences" />
+        <activity android:name=".About_Us" />
+        <activity android:name=".Contact_Us" />
+        <activity android:name=".Notices" />
+        <activity android:name=".Surya" />
+        <activity android:name=".Aim" />
+        <activity android:name=".Vani" />
+        <activity android:name=".Urja" />
+        <activity android:name=".Wisdom" />
+        <activity android:name=".Jeev" />
+        <activity android:name=".Vigyan" />
+        <activity android:name=".Bhu"></activity>
+    </application>
+
+</manifest>

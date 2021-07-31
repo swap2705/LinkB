@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shweta.linkb.Sign_Up">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sign Up"
+            android:typeface="serif"
+            android:id="@+id/textView16"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText10"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="20dp"
+            android:hint="Smartcard ID"
+            android:typeface="serif"
+            android:layout_alignLeft="@+id/editText11"
+            android:layout_alignStart="@+id/editText11"
+            android:layout_alignRight="@+id/editText11"
+            android:layout_alignEnd="@+id/editText11" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:typeface="serif"
+            android:ems="10"
+            android:id="@+id/editText11"
+            android:layout_below="@+id/editText10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:typeface="serif"
+            android:id="@+id/editText12"
+            android:hint="Password"
+            android:layout_below="@+id/editText11"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/editText11"
+            android:layout_alignStart="@+id/editText11"
+            android:layout_alignRight="@+id/editText11"
+            android:layout_alignEnd="@+id/editText11" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText13"
+            android:layout_below="@+id/editText12"
+            android:layout_marginTop="20dp"
+            android:hint="Security Question"
+            android:typeface="serif"
+            android:layout_alignRight="@+id/editText12"
+            android:layout_alignEnd="@+id/editText12"
+            android:layout_alignLeft="@+id/editText12"
+            android:layout_alignStart="@+id/editText12" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText14"
+            android:hint="Answer"
+            android:typeface="serif"
+            android:layout_below="@+id/editText13"
+            android:layout_alignLeft="@+id/editText12"
+            android:layout_alignStart="@+id/editText12"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/editText12"
+            android:layout_alignEnd="@+id/editText12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Type"
+            android:typeface="serif"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/editText14"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:id="@+id/radioGroup"
+            android:layout_above="@+id/button3"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="85sp"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:typeface="serif"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="right"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="85sp"
+                android:layout_height="wrap_content"
+                android:text="Staff"
+                android:typeface="serif"
+                android:id="@+id/radioButton"
+                android:layout_gravity="right"
+                android:checked="false"
+                android:layout_weight="0.08" />
+
+        </RadioGroup>
+        <Button
+            android:textSize="18sp"
+            android:text="Register"
+            android:typeface="serif"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:shadowColor="#3768a4"
+            android:shadowDx="0"
+            android:textStyle="bold"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+</RelativeLayout>

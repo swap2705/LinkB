@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">LinkB</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main__screen">Link B</string>
+    <string name="title_activity_about__us">About_Us</string>
+    <string-array name="Departments">
+
+
+        <item>Vani Mandir</item>
+        <item>Surya Mandir</item>
+        <item>Aim And Act</item>
+        <item>CMS</item>
+        <item>Jeev Mandir</item>
+        <item>Vigyan Mandir</item>
+        <item>Gyan Mandir</item>
+        <item>Urja Mandir</item>
+        <item>Bhu Mandir</item>
+        <item>Shilp Mandir</item>
+        <item>Kala Mandir</item>
+        <item>Sur Mandir</item>
+        <item>SBI school of Banking and Commerce</item>
+        <item>Jamana LAl Bajaj School of Legal Studies</item>
+        <item>Wisdom</item>
+        <item>Pragya Mandir</item>
+        <item>Krishi Vigyan Kendra</item>
+        <item>Five Fold Activities</item>
+        <item>Certificates and Diplomas</item>
+        <item>Placements</item>
+        <item>Clubs</item>
+        <item>Datesheets</item>
+        <item>Holidays</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
